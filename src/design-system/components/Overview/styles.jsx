@@ -12,4 +12,5 @@ export const Title = styled("h2")`
 export const Description = styled("p")`
    label: Description;
    color: #707070;
+   
 `;
