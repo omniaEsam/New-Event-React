@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import theme from "../../config";
 
 export const OverviewWrapper = styled("div")`
    label: OverviewWrapper;
@@ -11,6 +12,6 @@ export const Title = styled("h2")`
 `;
 export const Description = styled("p")`
    label: Description;
-   color: #707070;
+   color: ${theme.gray};
    
 `;
