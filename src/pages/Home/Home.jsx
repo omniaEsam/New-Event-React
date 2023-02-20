@@ -1,3 +1,4 @@
+import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <div>
         <>
         <Navbar/>
+        <Header/>
         </>
     </div>
   )
