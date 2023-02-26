@@ -1,5 +1,6 @@
 import Watchvideo from "../../design-system/components/Watchvideo/Watchvideo";
 import Aboutus from "./components/Aboutus/Aboutus";
+import Accordioncompnent from "./components/Accordioncomponent/Accordioncomponent";
 import CreateSpeakersComponent from "./components/Creative speakers/CreativeSpeakersComponent";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
@@ -19,6 +20,7 @@ export default function Home() {
         <CreateSpeakersComponent/>
         <OurprogramsComponent/>
         <Registerhere/>
+        <Accordioncompnent/>
         </>
     </div>
   )
