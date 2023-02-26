@@ -13,5 +13,5 @@ export const Title = styled("h2")`
 export const Description = styled("p")`
    label: Description;
    color: ${theme.gray};
-   
+   line-height:1.8rem;
 `;

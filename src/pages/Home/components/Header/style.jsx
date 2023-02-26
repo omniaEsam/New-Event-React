@@ -5,7 +5,7 @@ import header from "../../../../shared/assests/imags/intro-bg.jpg";
 export const Headerwrapper = styled("section")`
     label :Headerwrapper;
     background: url(${header}) fixed;
-    height: 100vh ;
+    height: 700px  ;
     padding:20% 0 ;
     text-align:center;
     background-repeat: no-repeat;

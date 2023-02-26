@@ -10,36 +10,36 @@ const Speakersdata =[
         id: 1 ,
         img: img1 ,
         alt: "imge1",
-        name:  "dolor" ,
-        Job: "sit amet "
+        name:  "Jeeny Green" ,
+        Job: "UI designer "
     } ,
     {
         id: 2 ,
         img: img2 ,
         alt: "imge2",
-        name:  "dolor" ,
-        Job: "  sit amet "
+        name:  "David Yoon" ,
+        Job: "  Creative Directior "
     } ,
     {
         id: 3 ,
         img: img3 ,
         alt: "imge3",
-        name:  "dolor" ,
-        Job: "  sit amet "
+        name:  "Je Mary Lee" ,
+        Job: "  Web specialist "
     } ,
     {
         id: 4 ,
         img: img4 ,
         alt: "imge4",
-        name:  "dolor" ,
-        Job: "  sit amet "
+        name:  "Johnnathan Doe" ,
+        Job: "  Frontend Div "
     } ,
     {
         id: 5 ,
         img: img5 ,
         alt: "imge5",
-        name:  "dolor" ,
-        Job: "  sit amet "
+        name:  "Elite Hamilton" ,
+        Job: "  Marketing "
     } 
 
 ]

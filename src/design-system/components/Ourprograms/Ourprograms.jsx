@@ -1,7 +1,8 @@
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { faMapMarker } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { IconWrapper, Image, ImageWrapper, OurprogramsWrapper } from "./style";
+import { Description } from "../Overview/styles";
+import { IconWrapper, Image, ImageWrapper, Name, OurprogramsWrapper, Roomnumber, Title } from "./style";
 
 export default function Ourprograms({img , alt , time , roomNumber , title , name , description}) {
   return (
@@ -12,17 +13,20 @@ export default function Ourprograms({img , alt , time , roomNumber , title , nam
        <div>
        <IconWrapper>
         <div>
-        <FontAwesomeIcon size="xs" icon={faClock} /> {time}
+        <FontAwesomeIcon size="xs" icon={faClock} /> 
+        <span> {time}</span>
         </div>
        <div>
-       <FontAwesomeIcon size="xs" icon={faMapMarker} /><span> Room</span> {roomNumber}
+       <FontAwesomeIcon style={{paddingRight:"0 .4rem"}} size="xs" icon={faMapMarker} />
+       <span> Room</span> 
+       <Roomnumber>{roomNumber}</Roomnumber>
        </div>
        </IconWrapper>
-       <h2>{title}</h2>
-       <span>{name}</span>
-       <p>
+       <Title>{title}</Title>
+       <Name>{name}</Name>
+       <Description>
         {description}
-       </p>
+       </Description>
         </div>
     </OurprogramsWrapper>
   )
