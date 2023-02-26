@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import OurprogramsComponent from "./components/OurPrograms/OurprogramsComonent";
 import Overview from "./components/Overview/Overview";
+import Registerhere from "./components/RegisterHere/Registerhere";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Watchvideo/>
         <CreateSpeakersComponent/>
         <OurprogramsComponent/>
+        <Registerhere/>
         </>
     </div>
   )
